@@ -24,3 +24,4 @@ fields:
     max: 
 pages:
 - src/pages/about/index.md
+- src/pages/this-is-my-test-page.md
