@@ -8,6 +8,16 @@ fields:
 - type: text
   name: title
   label: title
+- name: tt
+  type: number
+  label: TT
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - type: text
   name: heading
   label: heading
