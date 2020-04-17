@@ -11,6 +11,7 @@ slices:
   title: Training
   image: "/img/products-grid3.jpg"
   image_position: Left
+  content: Hello les cocos
 
 ---
 ## Lorem ipsum dolor sit amet, consectetuer
