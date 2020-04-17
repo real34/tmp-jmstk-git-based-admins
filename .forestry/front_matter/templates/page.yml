@@ -1,0 +1,16 @@
+---
+label: Page
+hide_body: false
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+- type: text
+  name: title
+  label: title
+- type: text
+  name: meta_title
+  label: meta_title
+- type: textarea
+  name: meta_description
+  label: meta_description
