@@ -1,0 +1,46 @@
+---
+label: Test
+hide_body: true
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+- type: text
+  name: title
+  label: title
+- type: text
+  name: heading
+  label: heading
+- type: text
+  name: description
+  label: description
+- type: field_group
+  name: offerings
+  label: offerings
+  fields:
+  - type: field_group_list
+    name: blurbs
+    label: blurbs
+    fields:
+    - type: file
+      name: image
+      label: image
+    - type: textarea
+      name: text
+      label: text
+- type: field_group_list
+  name: testimonials
+  label: testimonials
+  fields:
+  - type: text
+    name: author
+    label: author
+  - type: text
+    name: quote
+    label: quote
+- type: text
+  name: meta_title
+  label: meta_title
+- type: textarea
+  name: meta_description
+  label: meta_description
