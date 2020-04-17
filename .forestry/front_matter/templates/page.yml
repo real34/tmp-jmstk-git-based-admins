@@ -14,3 +14,11 @@ fields:
 - type: textarea
   name: meta_description
   label: meta_description
+- name: slices
+  type: blocks
+  label: Slices
+  template_types:
+  - block-with-image
+  config:
+    min: 
+    max: 
