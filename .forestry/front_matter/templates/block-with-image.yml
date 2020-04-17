@@ -1,4 +1,27 @@
 ---
 label: Block with image
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
+- name: image_position
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Left
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Image position
